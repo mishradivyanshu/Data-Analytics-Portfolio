@@ -15,6 +15,16 @@ This dashboard visualizes global COVID-19 trends based on data explored in Part 
 - Connecting SQL views / datasets to dashboards
 - Data visualization best practices
 
+- ## Screenshots
+Add screenshots here for immediate browser preview:
+
+![Dashboard Overview](screenshots/overview.png)
+![Cases & Deaths Over Time](screenshots/line_cases_deaths.png)
+![% Population Infected](screenshots/pop_infected.png)
+![Rolling Vaccinations](screenshots/rolling_vaccinations.png)
+![Vaccination Map](screenshots/map_vaccinations.png)
+
+
 ## Insights
 - Enables comparison of infection and death trends across countries
 - Visualizes vaccination progress over time
