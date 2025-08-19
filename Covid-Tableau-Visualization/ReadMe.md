@@ -18,11 +18,13 @@ This dashboard visualizes global COVID-19 trends based on data explored in Part 
 - ## Screenshots
 Add screenshots here for immediate browser preview:
 
-![Dashboard Overview](screenshots/overview.png)
-![Cases & Deaths Over Time](screenshots/line_cases_deaths.png)
-![% Population Infected](screenshots/pop_infected.png)
-![Rolling Vaccinations](screenshots/rolling_vaccinations.png)
-![Vaccination Map](screenshots/map_vaccinations.png)
+![Global Numbers](Screenshots/GlobalNumbers.jpg)
+![Death Per Continent](Screenshots/DeathPerContinent.jpg)
+![Vaccination Map](Screenshots/InfectedPerCountry.jpg)
+![% Population Infected](Screenshots/InfectedOvertime.jpg)
+![Dashboard Overview](Screenshots/Dashboard.jpg)
+
+
 
 
 ## Insights
