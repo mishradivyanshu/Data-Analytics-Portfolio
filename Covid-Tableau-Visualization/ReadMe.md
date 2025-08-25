@@ -16,7 +16,7 @@ This dashboard visualizes global COVID-19 trends based on data explored in Part 
 - Data visualization best practices
 
 - ## Screenshots
-Add screenshots here for immediate browser preview:
+Screenshots for immediate browser preview:
 
 ![Global Numbers](Screenshots/GlobalNumbers.jpg)
 ![Death Per Continent](Screenshots/DeathPerContinent.jpg)
