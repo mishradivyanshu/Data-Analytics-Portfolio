@@ -1,11 +1,11 @@
+
 Project 3 — Nashville Housing Data Cleaning (SQL)
-Summary
 
-Cleaned and standardized a housing dataset for downstream analysis.
+Project Objective
+The primary goal of this project is to clean a raw dataset using SQL, preparing it for analysis by handling missing values, standardizing formats, removing duplicates, and addressing other data inconsistencies.
 
-Objective
-
-Fix missingness, standardize formats, remove duplicates, and reshape columns for analysis.
+Data Source
+The data source for this project is a dataset that requires cleaning, likely loaded into a database system (e.g., SQL Server, PostgreSQL, MySQL).
 
 Approach
 
@@ -29,10 +29,18 @@ Columns reshaped for cleaner joins and grouping
 
 Duplicates removed, table footprint reduced
 
-Skills
+Skills Demonstrated
+SQL Fundamentals (SELECT, FROM, WHERE, etc.)
+Data Cleaning Techniques in SQL
+Handling NULL values (IS NULL, IS NOT NULL, COALESCE, etc.)
+Data Type Conversion and Casting
+String Manipulation Functions (SUBSTRING, PARSENAME, etc.)
+Conditional Logic in SQL (CASE statements)
+Working with Common Table Expressions (CTEs)
+Identifying and Removing Duplicates (ROW_NUMBER() partition by)
+Updating and Altering Tables
 
-Data standardization, missing value handling, string parsing, deduplication with window functions.
-
-How to run
-
-Execute CodeDataCleaning.sql in SQL Server against NashvilleHousingData.
+How to Use the SQL Script
+Ensure you have a database system with the dataset loaded.
+Execute the queries in the CodeDataCleaning.sql script sequentially in your SQL environment.
+Review the results of each query to understand the cleaning steps.
