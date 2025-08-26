@@ -1,4 +1,4 @@
-#🎬 Movie Dataset Exploratory Data Analysis (EDA)  
+#Movie Dataset Exploratory Data Analysis (EDA)  
 *Alex The Analyst: Portfolio Project 4*  
 
 This repository contains an **exploratory data analysis (EDA)** of a movie dataset.  
@@ -6,20 +6,20 @@ The project uncovers **patterns and relationships between various movie attribut
 
 ---
 
-## 📌 Project Objective  
+## Project Objective  
 The goal of this project is to analyze the **`movies.csv`** dataset to understand the factors influencing movie success, with focus on:  
 - **Financial performance** (gross earnings)  
 - **Critical reception** (score/rating)  
 
 ---
 
-## 📂 Data Source  
+## Data Source  
 - Dataset: **`movies.csv`**  
 - Downloaded from **Kaggle**  
 
 ---
 
-## 🛠️ Analysis Steps  
+## Analysis Steps  
 
 1. **Data Loading & Initial Understanding**  
    - Loaded dataset, inspected data types, missing values, and summary statistics  
@@ -59,16 +59,16 @@ The goal of this project is to analyze the **`movies.csv`** dataset to understan
 
 ---
 
-## 🔑 Key Findings  
+## Key Findings  
 
-- 🎥 **Budget strongly correlates with gross**  
-- 👍 **Votes correlate with gross**  
-- 🏢 **Genres & large studios drive higher revenue**  
-- ⭐ **Scores show weaker correlation with revenue**  
+-  **Budget strongly correlates with gross**  
+-  **Votes correlate with gross**  
+-  **Genres & large studios drive higher revenue**  
+-  **Scores show weaker correlation with revenue**  
 
 ---
 
-## 💡 Skills Demonstrated  
+##  Skills Demonstrated  
 
 - Data Loading & Inspection (**pandas**)  
 - Data Cleaning & Handling Missing Values  
@@ -82,7 +82,7 @@ The goal of this project is to analyze the **`movies.csv`** dataset to understan
 
 ---
 
-## ▶️ How to Run  
+##  How to Run  
 
 1. Clone this repository  
 2. Install dependencies:  
