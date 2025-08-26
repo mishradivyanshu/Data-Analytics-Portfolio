@@ -1,46 +1,90 @@
-Movie Dataset Exploratory Data Analysis (EDA) - Alex The Analyst Portfolio Project 4
-This repository contains an exploratory data analysis (EDA) of a movie dataset. The project aims to uncover patterns and relationships between various movie attributes, focusing on factors that influence financial success and critical reception. This notebook is the fourth project in the portfolio project series by Alex The Analyst.
+# 🎬 Movie Dataset Exploratory Data Analysis (EDA)  
+*Alex The Analyst: Portfolio Project 4*  
 
-Project Objective
-The primary goal of this project is to analyze the "movies.csv" dataset to find patterns and understand the factors influencing movie success, particularly focusing on financial performance (gross earnings) and critical reception (score/rating).
+This repository contains an **exploratory data analysis (EDA)** of a movie dataset.  
+The project uncovers **patterns and relationships between various movie attributes**, focusing on factors that influence **financial success** and **critical reception**.  
 
-Data Source
-The dataset used in this analysis is "movies.csv", which was downloaded from Kaggle.
+---
 
-Analysis Steps
-The analysis in this notebook followed a structured approach:
+## 📌 Project Objective  
+The goal of this project is to analyze the **`movies.csv`** dataset to understand the factors influencing movie success, with focus on:  
+- **Financial performance** (gross earnings)  
+- **Critical reception** (score/rating)  
 
-Data Loading and Initial Understanding: Loaded the dataset, inspected data types, identified missing values, and obtained basic statistics.
-Data Cleaning: Handled missing values by dropping rows in key columns and checked for duplicates.
-Data Type Conversion: Converted relevant numerical columns to integer types.
-Year Consistency Check: Examined and handled inconsistencies between the 'year' and 'released' date columns.
-Correlation Analysis: Explored relationships between numerical features using scatter plots, regression plots, and correlation matrices (Pearson, Kendall, Spearman).
-Handling Categorical Data: Converted categorical columns to numerical representations using the .cat.codes method for further analysis.
-Expanded Correlation Analysis: Analyzed the correlation matrix including numerized categorical features.
-Deepened Categorical Analysis (Genre and Company): Visualized and analyzed the distribution of gross earnings and scores by genre and company using box plots and bar charts of median values.
-Visualizing Numerical Feature Distributions: Created histograms and box plots to understand the distribution of key numerical features.
-Analyzing Trends Over Time (Optional): Explored median trends of key metrics over the years.
-Interpretation and Narrative: Added detailed markdown cells to interpret findings and create a clear narrative.
+---
 
-Key Findings
-Budget strongly correlates with gross
-Votes correlate with gross
-Genres and big studios skew revenue higher
-Scores have a weaker link to revenue
+## 📂 Data Source  
+- Dataset: **`movies.csv`**  
+- Downloaded from **Kaggle**  
 
-Skills Demonstrated
-Data Loading and Inspection (pandas)
-Data Cleaning and Handling Missing Values
-Data Type Conversion
-Exploratory Data Analysis (EDA)
-Correlation Analysis (Pearson, Kendall, Spearman)
-Data Visualization (matplotlib, seaborn)
-Handling Categorical Data
-Interpreting Statistical Measures
-Data Grouping and Aggregation
+---
 
-How to Run the Notebook
-Clone this repository.
-Ensure you have Python and the necessary libraries installed (pandas, numpy, seaborn, matplotlib).
-Place the movies.csv file in the correct directory (or update the file path in the notebook).
-Open and run the Jupyter Notebook or Google Colab notebook.
+## 🛠️ Analysis Steps  
+
+1. **Data Loading & Initial Understanding**  
+   - Loaded dataset, inspected data types, missing values, and summary statistics  
+
+2. **Data Cleaning**  
+   - Removed missing values in key columns  
+   - Checked and removed duplicates  
+
+3. **Data Type Conversion**  
+   - Converted numerical columns to integers where needed  
+
+4. **Year Consistency Check**  
+   - Compared `year` and `released` columns, handled mismatches  
+
+5. **Correlation Analysis**  
+   - Scatter plots, regression plots, and correlation matrices  
+   - Used Pearson, Kendall, and Spearman  
+
+6. **Handling Categorical Data**  
+   - Converted categorical features to numeric codes using `.cat.codes`  
+
+7. **Expanded Correlation Analysis**  
+   - Recomputed correlation matrix with numerized categorical features  
+
+8. **Genre & Company Analysis**  
+   - Visualized gross and scores by genre and production company  
+   - Used box plots and median-value bar charts  
+
+9. **Visualizing Distributions**  
+   - Histograms and box plots for budget, gross, votes, etc.  
+
+10. **Trend Analysis Over Time (Optional)**  
+    - Median earnings and ratings across years  
+
+11. **Interpretation & Narrative**  
+    - Markdown notes for findings and storytelling  
+
+---
+
+## 🔑 Key Findings  
+
+- 🎥 **Budget strongly correlates with gross**  
+- 👍 **Votes correlate with gross**  
+- 🏢 **Genres & large studios drive higher revenue**  
+- ⭐ **Scores show weaker correlation with revenue**  
+
+---
+
+## 💡 Skills Demonstrated  
+
+- Data Loading & Inspection (**pandas**)  
+- Data Cleaning & Handling Missing Values  
+- Data Type Conversion  
+- Exploratory Data Analysis (EDA)  
+- Correlation Analysis (**Pearson, Kendall, Spearman**)  
+- Data Visualization (**matplotlib, seaborn**)  
+- Handling Categorical Data  
+- Interpreting Statistical Measures  
+- Data Grouping & Aggregation  
+
+---
+
+## ▶️ How to Run  
+
+1. Clone this repository  
+2. Install dependencies:  
+   ```bash
+   pip install pandas numpy matplotlib seaborn
